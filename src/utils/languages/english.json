@@ -1,0 +1,34 @@
+{
+  "signUpBtn": "Registrovat se",
+  "googleSignUp": "Google registrace",
+  "facebookSignUp": "Facebook registrace",
+  "signInBtn": "Přihlásit se",
+  "navNewPost": "Vytvořit nový příspěvek",
+  "dashboard": "Dashboard",
+  "viewRepo": "Zobrazit Repolero",
+  "viewGuide": "Zobrazit průvodce",
+  "addNewRepo": "Přidat nové Repolero",
+  "settings": "Nastavení",
+  "contactUs": "Kontaktujte nás",
+  "faq": "Nápověda",
+  "logOut": "Odhlásit se",
+  "form": {
+    "name": "Název",
+    "namePlaceholder": "Tvé první krůčky",
+    "text": "Text",
+    "addPhotos": "Přidat fotografii",
+    "sendBtn": "Vytvořit příspěvek"
+  },
+  "auth": {
+    "emailPlaceholder": "vasemail@email.cz",
+    "emailLabel": "Email",
+    "passwordLabel": "Heslo",
+    "rFemail": "Emailová adresa",
+    "rFpassword": "Heslo",
+    "rFemailMarketing": "Souhlasím se zasíláním newsletterů a marketingových emailů.",
+    "rFpreferredLang": "Preferovaný jazyk aplikace",
+    "rFpreferredTheme": "Preferovaný vzhled aplikace",
+    "rFName": "Jméno",
+    "sendBtn": "Odeslat"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "signUpBtn": "Sign up",
+  "googleSignUp": "Google sign up",
+  "facebookSignUp": "Facebook sign up",
+  "signInBtn": "Sign in",
+  "navNewPost": "Create a new post",
+  "dashboard": "Dashboard",
+  "viewRepo": "View Repolero",
+  "viewGuide": "View Guide",
+  "addNewRepo": "Add new Repolero",
+  "settings": "Settings",
+  "contactUs": "Contact us",
+  "faq": "FAQ",
+  "logOut": "Log out",
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Your first steps",
+    "text": "Text",
+    "addPhotos": "Add photo",
+    "sendBtn": "Create post"
+  },
+  "auth": {
+    "emailPlaceholder": "youremail@email.com",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "rFemailMarketing": "I agree with receiving newsletters and marketing emails.",
+    "rFpreferredLang": "Preferred language",
+    "rFpreferredTheme": "Preferred theme",
+    "rFName": "Name",    "sendBtn":"Submit"
+  }
+}
