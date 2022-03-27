@@ -1,34 +1,73 @@
 {
-  "signUpBtn": "Registrovat se",
-  "googleSignUp": "Google registrace",
-  "facebookSignUp": "Facebook registrace",
-  "signInBtn": "Přihlásit se",
-  "navNewPost": "Vytvořit nový příspěvek",
-  "dashboard": "Dashboard",
-  "viewRepo": "Zobrazit Repolero",
-  "viewGuide": "Zobrazit průvodce",
-  "addNewRepo": "Přidat nové Repolero",
-  "settings": "Nastavení",
-  "contactUs": "Kontaktujte nás",
-  "faq": "Nápověda",
-  "logOut": "Odhlásit se",
-  "form": {
-    "name": "Název",
-    "namePlaceholder": "Tvé první krůčky",
-    "text": "Text",
-    "addPhotos": "Přidat fotografii",
-    "sendBtn": "Vytvořit příspěvek"
+  "navbar": {
+    "about": "Apartments",
+    "reservation": "Bookings",
+    "usefulInfo": "Useful information",
+    "contact": "Contact"
   },
-  "auth": {
-    "emailPlaceholder": "vasemail@email.cz",
-    "emailLabel": "Email",
-    "passwordLabel": "Heslo",
-    "rFemail": "Emailová adresa",
-    "rFpassword": "Heslo",
-    "rFemailMarketing": "Souhlasím se zasíláním newsletterů a marketingových emailů.",
-    "rFpreferredLang": "Preferovaný jazyk aplikace",
-    "rFpreferredTheme": "Preferovaný vzhled aplikace",
-    "rFName": "Jméno",
-    "sendBtn": "Odeslat"
+  "about": {
+    "size": "90 square meter",
+    "internet": "Wi-fi + satelite TV Skylink",
+    "room": "Living room",
+    "bedroom": "3 bedrooms",
+    "kitchen": "Kitchen",
+    "bathroom": "Bathroom",
+    "closet": "Storage space",
+    "children": "Equipment for children",
+    "garage": "Garage for 2 cars",
+    "balcony": "2 balconies with amazing views",
+    "terrace": "2 terraces",
+    "equipment": "House amenities",
+    "kitchenRoom": {
+      "shower": "shower",
+      "heating": "floor heating, heating ladder",
+      "soap": "toiletries, soap, towels",
+      "cooker": "induction cooker",
+      "oven": "hot air oven",
+      "microwave": "microwave",
+      "kettle": "kettle",
+      "coffee": "Nespresso coffee maker",
+      "washing": "dishwasher",
+      "fridge": "fridge",
+      "kitchentEquip": "basic kitchen equipment",
+      "food": "basic food (tea, coffee, sugar, salt, oil, seasoning)",
+      "dishes": "dishwashing detergents, dish-cloth"
+    },
+    "livingRoom": {
+      "tv": "TV Skylink with 300 channels",
+      "hdmi": "possibility to connect notebook via HDMI",
+      "games": "cards, board games, maps and information about the surroundings"
+    },
+    "bedRoom": {
+      "bed": "2x king bed",
+      "bunkBed": "1x bunk bed for 4 people",
+      "mattress": "quality bed and mattress",
+      "blanket": "summer and winter blankets",
+      "bedLinen": "bed linen"
+    },
+    "childrenEq": {
+      "childBed": "travel cot with mattress",
+      "chair": "2x children's high chair",
+      "wc": "potty, reduction to the toilet seat, steps to the sink",
+      "bath": "children's bath tub"
+    },
+    "otherEq": {
+      "vacuum": "vacuum cleaner and floor mop",
+      "terrace": "chairs and tables for terraces",
+      "gril": "grill",
+      "waste": "waste sorting containers",
+      "snow": "snow removal tools",
+      "car": "car cleaning broom",
+      "keys": "coded key box",
+      "sport": "V garáži je dostatek místa na uložení všeho sportovního vybavení (lyže, snb, kola, sušák bot a rukavic, atd.)",
+      "garden": "Menší rovinatý pozemek s možností grilování, posezení a vyžití pro děti, v případě hezkého počasí též využitelný k opalování"
+    }
+  },
+  "aboutUs": "Jsme mladá aktivní rodina s dvěma malými dětmi (3 a 5 let), kteří dbají na to, aby byl celý dům v naprostém pořádku a byl využitelný jak pro rodiny s dětmi, tak pro skupiny aktivních lidí a sportovců. Nabízíme naprostý klid a výhodu soukromí samostatného domu s úžasnými výhledy. Ideální též pro homeoffice.",
+  "contat": {
+    "address": "Address: Loučná 140, 431 91 Loučná pod Klínovcem",
+    "gps": "GPS coordinates: 50.41073N, 12.98236E",
+    "info1": "Doporučujeme použít navigaci Waze nebo Mapy.cz. U ostatních není garance, že znají přesnou adresu a dovedou Vás pravděpodobně do centra obce a ne k nám.",
+    "info2": "Mapy.cz použijete v mobilu i pro pohyb a orientaci v terénu spolu se značenými turistickými a lyžařskými trasami. Doporučujeme stáhnout si offline mapy."
   }
 }

@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import themes from '../utils/theme/schema.json';
 import { setToLS, getFromLS } from '../utils/theme/storage';
-import { ThemeProvider } from 'styled-components';
 
-const defaultTheme = themes.data.cyanDark;
+const defaultTheme = themes.data.summer;
 
 export const ThemeContext = React.createContext({ defaultTheme });
 
@@ -24,16 +23,14 @@ export const ContextThemeProvider = ({ children }) => {
 
   useEffect(() => {
     const localTheme = getFromLS('theme');
-    localTheme ? setTheme(localTheme) : setTheme(themes.data.cyanDark);
+    localTheme ? setTheme(localTheme) : setTheme(themes.data.summer);
     setThemeLoaded(true);
   }, []);
 
   const provider = { theme, themeLoaded, handleThemeChange, setMode };
 
   return (
-    <ThemeContext.Provider value={provider}>
-      <ThemeProvider theme={theme}>{children}</ThemeProvider>
-    </ThemeContext.Provider>
+    <ThemeContext.Provider value={provider}>{children}</ThemeContext.Provider>
   );
 };
 

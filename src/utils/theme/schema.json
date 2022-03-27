@@ -1,0 +1,39 @@
+{
+  "data": {
+    "summer": {
+      "id": "T_001",
+      "name": "Summer Theme",
+      "colors": {
+        "menuBtn1": "#ff8800",
+        "menuBtn2": "#ffc300"
+      },
+      "heatWave": "#ff7b00",
+      "darkOrange": "#ff8800",
+      "yellow-orange-color-wheel": "#ff9500",
+      "orange-peel": "#ffa200",
+      "chrome-yellow": "#ffaa00",
+      "selective-yellow": "#ffb700",
+      "mikado-yellow": "#ffc300",
+      "cyber-yellow": "#ffd000",
+      "golden-yellow": "#ffdd00",
+      "middle-yellow": "#ffea00"
+    },
+    "winter": {
+      "id": "T_002",
+      "name": "Winter Theme",
+      "colors": {
+        "menuBtn1": "#023e8a",
+        "menuBtn2": "#90e0ef"
+      },
+      "midnight-blue": "#03045e",
+      "dark-cornflower-blue": "#023e8a",
+      "star-command-blue": "#0077b6",
+      "blue-green": "#0096c7",
+      "pacific-blue": "#00b4d8",
+      "sky-blue-crayola": "#48cae4",
+      "middle-blue": "#90e0ef",
+      "blizzard-blue": "#ade8f4",
+      "light-cyan": "#caf0f8"
+    }
+  }
+}
