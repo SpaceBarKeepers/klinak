@@ -1,18 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import themes from './schema.json';
 import { useTheme } from '../../context/ThemeContext';
+import Switch from '@mui/material/Switch';
+import { BsFillSunFill } from 'react-icons/bs';
+import { FaSnowflake } from 'react-icons/fa';
+
+const label = { inputProps: { 'aria-label': 'Switch theme' } };
 
 function ThemeSwitch() {
+  const [checked, setChecked] = useState(true);
   const { handleThemeChange } = useTheme();
 
+  const handleChange = (event) => {
+    setChecked(event.target.checked);
+  };
+
   return (
-    <select onChange={handleThemeChange}>
-      {Object.entries(themes.data).map(([key, themeObject]) => (
-        <option key={key} value={key}>
-          {themeObject.name}
-        </option>
-      ))}
-    </select>
+    <div>
+      <FaSnowflake />
+      <Switch
+        {...label}
+        defaultChecked
+        color="warning"
+        checked={checked}
+        onChange={handleChange}
+      />
+      <BsFillSunFill />
+    </div>
   );
 }
 

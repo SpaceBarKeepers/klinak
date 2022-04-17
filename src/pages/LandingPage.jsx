@@ -1,24 +1,23 @@
 import React from 'react';
 import LanguageSwitch from '../utils/languages/LanguageSwitch';
 import ThemeSwitch from '../utils/theme/ThemeSwitch';
-import { useLanguage } from '../context/LanguageContext';
-import Header from '../components/Header';
-import {useTheme} from "../context/ThemeContext";
+import Header from '../components/Header/Header';
+import AboutSection from '../components/About/AboutSection';
+import Reservations from '../components/Reservations/Reservations';
+import Information from '../components/Information/Information';
+import Footer from '../components/Footer/Footer';
 
 function LandingPage() {
-  const { dictionary } = useLanguage();
-  const { theme } = useTheme()
-
   return (
-    <div>
+    <main>
       <Header />
+      <AboutSection />
+      <Reservations />
+      <Information />
+      <Footer />
       <LanguageSwitch />
       <ThemeSwitch />
-      {dictionary.navbar.about}
-      <p>Tady je stringified aktivní theme:</p>
-      <p>{JSON.stringify(theme)}</p>
-      <div style={{backgroundColor: theme.colors.menuBtn1}}>Nastylovaný div</div>
-    </div>
+    </main>
   );
 }
 

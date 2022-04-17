@@ -7,14 +7,19 @@ function LanguageSwitch() {
 
   const handleLanguageChange = (e) => userLangChange(e.target.value);
 
+  const flags = {
+    cs: 'https://www.flaticon.com/free-icons/czech-republic',
+    en: 'https://www.flaticon.com/free-icons/uk-flag',
+  };
+
   return (
-    <select onChange={handleLanguageChange} value={userLang}>
+    <ul onChange={handleLanguageChange} value={userLang}>
       {Object.entries(languageOptions).map(([id, name]) => (
-        <option key={id} value={id}>
-          {name}
-        </option>
+        <li key={id} value={id}>
+          {flags.cs}
+        </li>
       ))}
-    </select>
+    </ul>
   );
 }
 

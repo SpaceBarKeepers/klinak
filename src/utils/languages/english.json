@@ -18,6 +18,8 @@
     "balcony": "2 balconies with amazing views",
     "terrace": "2 terraces",
     "equipment": "House amenities",
+    "showMore": "Show more",
+    "hideAll": "Hide",
     "kitchenRoom": {
       "shower": "shower",
       "heating": "floor heating, heating ladder",
@@ -52,6 +54,8 @@
       "bath": "children's bath tub"
     },
     "otherEq": {
+      "otherEquip": "Další vybavení",
+
       "vacuum": "vacuum cleaner and floor mop",
       "terrace": "chairs and tables for terraces",
       "gril": "grill",
@@ -63,8 +67,13 @@
       "garden": "Menší rovinatý pozemek s možností grilování, posezení a vyžití pro děti, v případě hezkého počasí též využitelný k opalování"
     }
   },
+  "aboutUsTab": "About us",
   "aboutUs": "Jsme mladá aktivní rodina s dvěma malými dětmi (3 a 5 let), kteří dbají na to, aby byl celý dům v naprostém pořádku a byl využitelný jak pro rodiny s dětmi, tak pro skupiny aktivních lidí a sportovců. Nabízíme naprostý klid a výhodu soukromí samostatného domu s úžasnými výhledy. Ideální též pro homeoffice.",
-  "contat": {
+  "regionTab": "About Klinovec region",
+  "tripsTab": "Tips for activities",
+  "snowConditionsTab": "Snow conditions",
+  "contact": {
+    "wheretofind": "Where to find the apartments:",
     "address": "Address: Loučná 140, 431 91 Loučná pod Klínovcem",
     "gps": "GPS coordinates: 50.41073N, 12.98236E",
     "info1": "Doporučujeme použít navigaci Waze nebo Mapy.cz. U ostatních není garance, že znají přesnou adresu a dovedou Vás pravděpodobně do centra obce a ne k nám.",

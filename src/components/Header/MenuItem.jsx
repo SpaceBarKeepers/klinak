@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import './menuItem.css';
 
-function MenuItem({ menuLink, menuText, menuColor }) {
+function MenuItem({ menuLink, menuText, menuColor, textColor }) {
   return (
     <Link
       className="menuItem"
@@ -10,7 +9,7 @@ function MenuItem({ menuLink, menuText, menuColor }) {
       smooth={true}
       offset={50}
       duration={500}
-      style={{ backgroundColor: `${menuColor}` }}
+      style={{ backgroundColor: `${menuColor}`, color: `${textColor}` }}
     >
       {menuText}
     </Link>
