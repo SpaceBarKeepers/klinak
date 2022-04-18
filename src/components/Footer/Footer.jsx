@@ -40,14 +40,14 @@ function Footer() {
           <p>{dictionary.contact.info1}</p>
           <p>{dictionary.contact.info2}</p>
         </div>
-        <div class="map">
+        <div className="map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.630149958814!2d12.980171316393783!3d50.41072997946997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4466c9b05ffcb45!2zNTDCsDI0JzM4LjYiTiAxMsKwNTgnNTYuNSJF!5e0!3m2!1sen!2scz!4v1650209963028!5m2!1sen!2scz"
             width="300"
             height="250"
-            allowfullscreen=""
+            allowFullScreen={true}
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

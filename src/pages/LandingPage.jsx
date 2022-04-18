@@ -15,8 +15,8 @@ function LandingPage() {
       <Reservations />
       <Information />
       <Footer />
-      <LanguageSwitch />
-      <ThemeSwitch />
+    {/*   <LanguageSwitch />
+      <ThemeSwitch /> */}
     </main>
   );
 }

@@ -4,7 +4,7 @@ import { useLanguage } from '../../context/LanguageContext';
 function AboutUs() {
   const { dictionary } = useLanguage();
 
-  return <p>{dictionary.aboutUs}</p>;
+  return <span>{dictionary.aboutUs}</span>;
 }
 
 export default AboutUs;

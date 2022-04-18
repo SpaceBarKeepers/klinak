@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import themes from './schema.json';
 import { useTheme } from '../../context/ThemeContext';
 import Switch from '@mui/material/Switch';
 import { BsFillSunFill } from 'react-icons/bs';

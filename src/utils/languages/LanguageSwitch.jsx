@@ -14,9 +14,9 @@ function LanguageSwitch() {
 
   return (
     <ul onChange={handleLanguageChange} value={userLang}>
-      {Object.entries(languageOptions).map(([id, name]) => (
+      {Object.entries(languageOptions).map(([id]) => (
         <li key={id} value={id}>
-          {flags.cs}
+          <img src={flags.cs} alt="" />
         </li>
       ))}
     </ul>

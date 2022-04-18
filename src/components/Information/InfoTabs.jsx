@@ -58,7 +58,6 @@ export default function InfoTabs() {
           onChange={handleChange}
           aria-label="scrollable prevent tabs example"
           centered
-          variant="scrollable"
           scrollButtons="auto"
         >
           <Tab label={dictionary.aboutUsTab} {...a11yProps(0)} />
