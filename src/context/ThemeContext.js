@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import themes from '../utils/theme/schema.json';
 import { setToLS, getFromLS } from '../utils/theme/storage';
 
-const defaultTheme = themes.data.summer;
+const defaultTheme = themes.data.winter;
 
 export const ThemeContext = React.createContext({ defaultTheme });
 
@@ -16,18 +16,18 @@ export const ContextThemeProvider = ({ children }) => {
     setTheme(mode);
   };
 
-  const handleThemeChange = (e) => {
-    setTheme(themes.data[e.target.value]);
-    setToLS('theme', themes.data[e.target.value]);
+  const handleThemeChange = (theme) => {
+    setTheme(themes.data[theme]);
+    setToLS('theme', themes.data[theme]);
   };
 
   useEffect(() => {
     const localTheme = getFromLS('theme');
-    localTheme ? setTheme(localTheme) : setTheme(themes.data.summer);
+    localTheme ? setTheme(localTheme) : setTheme(themes.data.winter);
     setThemeLoaded(true);
   }, []);
 
-  const provider = { theme, themeLoaded, handleThemeChange, setMode };
+  const provider = { theme, themeLoaded, themes, handleThemeChange, setMode };
 
   return (
     <ThemeContext.Provider value={provider}>{children}</ThemeContext.Provider>

@@ -1,0 +1,20 @@
+.tips {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 700px) {
+  .tips {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .aboutUs {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+}

@@ -4,36 +4,39 @@
       "id": "T_001",
       "name": "Summer Theme",
       "colors": {
-        "menuBtn1": "#ff8800",
-        "menuBtn2": "#ffc300"
+        "menuBtn1": "#F83E3E",
+        "menuBtn2": "#F0F2E7",
+        "menuText": "#000000",
+        "headerBackground": "#F8D3D3",
+        "aboutBackground": "#FFF1C5",
+        "reservationBackground": "#F8D3D3",
+        "importantInfoBackground": "#FFF1C5",
+        "footerBackground": "#625A6E",
+        "footerFontColor": "#F6F0EA"
       },
-      "heatWave": "#ff7b00",
-      "darkOrange": "#ff8800",
-      "yellow-orange-color-wheel": "#ff9500",
-      "orange-peel": "#ffa200",
-      "chrome-yellow": "#ffaa00",
-      "selective-yellow": "#ffb700",
-      "mikado-yellow": "#ffc300",
-      "cyber-yellow": "#ffd000",
-      "golden-yellow": "#ffdd00",
-      "middle-yellow": "#ffea00"
+      "yellow": "#FFF1C5",
+      "pink": "#F8D3D3",
+      "light": "#F6F0EA",
+      "dark": "#625A6E"
     },
     "winter": {
       "id": "T_002",
       "name": "Winter Theme",
       "colors": {
-        "menuBtn1": "#023e8a",
-        "menuBtn2": "#90e0ef"
+        "menuBtn1": "#317EB0",
+        "menuBtn2": "#767272",
+        "menuText": "#FFFFFF",
+        "headerBackground": "#F8F8F8",
+        "aboutBackground": "#B6D0E1",
+        "reservationBackground": "#F8F8F8",
+        "importantInfoBackground": "#B6D0E1",
+        "footerBackground": "#151C36",
+        "footerFontColor": "#F0F2E7"
       },
-      "midnight-blue": "#03045e",
-      "dark-cornflower-blue": "#023e8a",
-      "star-command-blue": "#0077b6",
-      "blue-green": "#0096c7",
-      "pacific-blue": "#00b4d8",
-      "sky-blue-crayola": "#48cae4",
-      "middle-blue": "#90e0ef",
-      "blizzard-blue": "#ade8f4",
-      "light-cyan": "#caf0f8"
+      "blue": "#B6D0E1",
+      "grey": "#F8F8F8",
+      "dark": "#151C36",
+      "light": "#F0F2E7"
     }
   }
 }

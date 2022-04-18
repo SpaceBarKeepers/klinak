@@ -1,20 +1,35 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { languageOptions } from './languages';
+import czech from '../../images/cs.png';
+import english from '../../images/en.png';
 
 function LanguageSwitch() {
   const { userLang, userLangChange } = useLanguage();
 
-  const handleLanguageChange = (e) => userLangChange(e.target.value);
+  const handleLanguageChange = (e) => {
+    userLangChange(e.target.id);
+  };
+
+  const flags = {
+    cs: czech,
+    en: english,
+  };
 
   return (
-    <select onChange={handleLanguageChange} value={userLang}>
-      {Object.entries(languageOptions).map(([id, name]) => (
-        <option key={id} value={id}>
-          {name}
-        </option>
+    <ul className="languageSwitch">
+      {Object.keys(languageOptions).map((id) => (
+        <li key={id}>
+          <img
+            className="flags"
+            src={flags[id]}
+            alt=""
+            onClick={handleLanguageChange}
+            id={id}
+          />
+        </li>
       ))}
-    </select>
+    </ul>
   );
 }
 
