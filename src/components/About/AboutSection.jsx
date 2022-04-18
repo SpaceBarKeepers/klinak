@@ -14,9 +14,9 @@ function AboutSection() {
     <section
       style={{
         backgroundColor: theme.colors.aboutBackground,
-        color: theme.colors.aboutFontColor,
       }}
       className="aboutSection"
+      id="about"
     >
       <h2>{dictionary.navbar.about}</h2>
       <MainFeatures />

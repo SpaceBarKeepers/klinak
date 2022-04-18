@@ -74,7 +74,6 @@ function Equipment() {
         )}
         <button
           style={{
-            backgroundColor: theme.colors.aboutFontColor,
             color: theme.colors.aboutBackground,
           }}
           className="showMore"

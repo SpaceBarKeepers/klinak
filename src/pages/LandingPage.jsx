@@ -1,6 +1,4 @@
 import React from 'react';
-import LanguageSwitch from '../utils/languages/LanguageSwitch';
-import ThemeSwitch from '../utils/theme/ThemeSwitch';
 import Header from '../components/Header/Header';
 import AboutSection from '../components/About/AboutSection';
 import Reservations from '../components/Reservations/Reservations';
@@ -15,8 +13,6 @@ function LandingPage() {
       <Reservations />
       <Information />
       <Footer />
-    {/*   <LanguageSwitch />
-      <ThemeSwitch /> */}
     </main>
   );
 }

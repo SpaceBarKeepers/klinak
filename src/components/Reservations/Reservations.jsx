@@ -12,6 +12,7 @@ function Reservations() {
         backgroundColor: theme.colors.reservationBackground,
       }}
       className="reservationSection"
+      id="bookings"
     >
       <h2>{dictionary.navbar.reservation}</h2>
     </section>

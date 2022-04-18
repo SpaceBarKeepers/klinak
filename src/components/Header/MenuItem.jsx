@@ -7,8 +7,8 @@ function MenuItem({ menuLink, menuText, menuColor, textColor }) {
       className="menuItem"
       to={menuLink}
       smooth={true}
-      offset={50}
       duration={500}
+      delay={100}
       style={{ backgroundColor: `${menuColor}`, color: `${textColor}` }}
     >
       {menuText}

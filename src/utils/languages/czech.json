@@ -68,9 +68,10 @@
   },
   "aboutUsTab": "O nás",
   "aboutUs": "Jsme mladá aktivní rodina s dvěma malými dětmi (3 a 5 let), kteří dbají na to, aby byl celý dům v naprostém pořádku a byl využitelný jak pro rodiny s dětmi, tak pro skupiny aktivních lidí a sportovců. Nabízíme naprostý klid a výhodu soukromí samostatného domu s úžasnými výhledy. Ideální též pro homeoffice.",
-  "regionTab": "O regionu Klínovec",
-  "tripsTab": "Tipy na aktivity",
-  "snowConditionsTab": "Sněhové podmínky",
+  "tripsTab": "Tipy a informace o okolí",
+  "tipsforTrips":"Tipy na aktivity",
+  "regionInfo":"O regionu Klínovec",
+  "snowConditions":"Sněhové podmínky",
   "contact": {
     "wheretofind":"Kde domky najdete:",
     "address": "Adresa: Loučná 140, 431 91 Loučná pod Klínovcem",

@@ -7,6 +7,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import AboutUs from './AboutUs';
+import Tips from './Tips';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -53,30 +54,17 @@ export default function InfoTabs() {
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          aria-label="scrollable prevent tabs example"
-          centered
-          scrollButtons="auto"
-        >
-          <Tab label={dictionary.aboutUsTab} {...a11yProps(0)} />
-          <Tab label={dictionary.regionTab} {...a11yProps(1)} />
-          <Tab label={dictionary.tripsTab} {...a11yProps(2)} />
-          <Tab label={dictionary.snowConditionsTab} {...a11yProps(3)} />
+        <Tabs value={value} onChange={handleChange} centered>
+          <Tab label={dictionary.tripsTab} {...a11yProps(0)} />
+          <Tab label={dictionary.aboutUsTab} {...a11yProps(1)} />
         </Tabs>
       </Box>
+
       <TabPanel value={value} index={0}>
-        <AboutUs />
+        <Tips />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        Item Three
-      </TabPanel>
-      <TabPanel value={value} index={3}>
-        Item Three
+        <AboutUs />
       </TabPanel>
     </Box>
   );

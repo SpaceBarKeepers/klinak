@@ -1,22 +1,32 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { languageOptions } from './languages';
+import czech from '../../images/cs.png';
+import english from '../../images/en.png';
 
 function LanguageSwitch() {
   const { userLang, userLangChange } = useLanguage();
 
-  const handleLanguageChange = (e) => userLangChange(e.target.value);
+  const handleLanguageChange = (e) => {
+    userLangChange(e.target.id);
+  };
 
   const flags = {
-    cs: 'https://www.flaticon.com/free-icons/czech-republic',
-    en: 'https://www.flaticon.com/free-icons/uk-flag',
+    cs: czech,
+    en: english,
   };
 
   return (
-    <ul onChange={handleLanguageChange} value={userLang}>
-      {Object.entries(languageOptions).map(([id]) => (
-        <li key={id} value={id}>
-          <img src={flags.cs} alt="" />
+    <ul className="languageSwitch">
+      {Object.keys(languageOptions).map((id) => (
+        <li key={id}>
+          <img
+            className="flags"
+            src={flags[id]}
+            alt=""
+            onClick={handleLanguageChange}
+            id={id}
+          />
         </li>
       ))}
     </ul>

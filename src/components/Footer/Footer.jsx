@@ -15,6 +15,7 @@ function Footer() {
         backgroundColor: theme.colors.footerBackground,
         color: theme.colors.footerFontColor,
       }}
+      id="contact"
     >
       <h2>{dictionary.navbar.contact}</h2>
       <div className="iconContactAll">

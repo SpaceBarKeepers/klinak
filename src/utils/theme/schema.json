@@ -4,43 +4,39 @@
       "id": "T_001",
       "name": "Summer Theme",
       "colors": {
-        "menuBtn1": "#75CDD8",
-        "menuBtn2": "#FFDB6D",
+        "menuBtn1": "#F83E3E",
+        "menuBtn2": "#F0F2E7",
         "menuText": "#000000",
-        "headerBackground": "#F0F2E7",
-        "aboutBackground": "#EE9191",
-        "aboutFontColor": "#000",
-        "reservationBackground": "#75CDD8",
-        "importantInfoBackground": "#FFDB6D",
-        "footerBackground": "#888094",
-        "footerFontColor": "#F0F2E7"
+        "headerBackground": "#F8D3D3",
+        "aboutBackground": "#FFF1C5",
+        "reservationBackground": "#F8D3D3",
+        "importantInfoBackground": "#FFF1C5",
+        "footerBackground": "#625A6E",
+        "footerFontColor": "#F6F0EA"
       },
-      "blue": "#75CDD8",
-      "yellow": "#FFDB6D",
-      "pink": "#EE9191",
-      "light": "#F0F2E7",
-      "dark": "#888094"
+      "yellow": "#FFF1C5",
+      "pink": "#F8D3D3",
+      "light": "#F6F0EA",
+      "dark": "#625A6E"
     },
     "winter": {
       "id": "T_002",
       "name": "Winter Theme",
       "colors": {
-        "menuBtn1": "#485778",
-        "menuBtn2": "#ABB1BC",
-        "menuText": "#FFF8E6",
-        "headerBackground": "#FFF8E6",
-        "aboutBackground": "#485778",
-        "aboutFontColor": "#FFF8E6",
-        "reservationBackground": "#FBDCC4",
-        "importantInfoBackground": "#ABB1BC",
+        "menuBtn1": "#317EB0",
+        "menuBtn2": "#767272",
+        "menuText": "#FFFFFF",
+        "headerBackground": "#F8F8F8",
+        "aboutBackground": "#B6D0E1",
+        "reservationBackground": "#F8F8F8",
+        "importantInfoBackground": "#B6D0E1",
         "footerBackground": "#151C36",
-        "footerFontColor": "#FFF8E6"
+        "footerFontColor": "#F0F2E7"
       },
-      "black": "#151C36",
-      "darkPurple": "#485778",
-      "grey": "#ABB1BC",
-      "white": "#FFF8E6",
-      "orange": "#FBDCC4"
+      "blue": "#B6D0E1",
+      "grey": "#F8F8F8",
+      "dark": "#151C36",
+      "light": "#F0F2E7"
     }
   }
 }

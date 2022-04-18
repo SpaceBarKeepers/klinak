@@ -13,6 +13,7 @@ function Information() {
         backgroundColor: theme.colors.importantInfoBackground,
       }}
       className="informationSection"
+      id="info"
     >
       <h2>{dictionary.navbar.usefulInfo}</h2>
       <InfoTabs />
